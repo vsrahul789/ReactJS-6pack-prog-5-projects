@@ -48,7 +48,7 @@ const Signup = () => {
           <Text textAlign={'right'}>
             Already Signed Up?
             <Button variant={'ghost'} alignSelf={'flex-end'}>
-              <Link href={'/login'}>Login In</Link>
+              <Link to={'/login'}>Login In</Link>
             </Button>
           </Text>
         </VStack>

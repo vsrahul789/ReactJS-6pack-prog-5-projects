@@ -46,7 +46,7 @@ const Login = () => {
           <Text textAlign={'right'}>
             New User?
             <Button variant={'ghost'} colorScheme="purple">
-              <Link href={'/signup'}>Sign Up</Link>
+              <Link to={'/signup'}>Sign Up</Link>
             </Button>
           </Text>
         </VStack>
