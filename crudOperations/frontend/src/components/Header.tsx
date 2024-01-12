@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className="w-full md:px-60 px-5">
-        <div className="container justify-between flex md:py-16 py-5">
+        <div className="container justify-between flex md:py-7 py-3">
           <span className=" text-red-600 font-bold text-3xl">
             <Link to={"/"}>CRUD.</Link>
           </span>
